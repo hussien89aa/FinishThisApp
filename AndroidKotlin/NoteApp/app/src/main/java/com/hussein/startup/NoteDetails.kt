@@ -15,7 +15,7 @@ import kotlinx.android.synthetic.main.fragment_note_details.view.butUpdate
 class NoteDetails : Fragment() {
 
     //TODO:  5- Define DB instance
-    var id:Int?=null
+    var id:Int?=0
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
